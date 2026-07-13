@@ -10,23 +10,27 @@ Sitio estático (HTML + CSS + JS), listo para GitHub Pages.
 | `script.js` | La fecha exacta del countdown y tu número de WhatsApp |
 | `style.css` | Los colores (arriba del archivo, sección `:root`), por si quieres ajustar tonos |
 
-### Datos que YA debes cambiar antes de publicar:
+### Ya están cargados estos datos:
 
-1. **Nombre** — en `index.html`, busca `Sofía` (aparece en el hero, la letra del monograma "S" y el footer).
-2. **Fecha y hora** — en `script.js`, línea:
-   ```js
-   const EVENT_DATE = new Date('2026-11-14T19:00:00-06:00');
-   ```
-   Cambia año-mes-día y hora. El `-06:00` es la zona horaria de Guatemala, no lo quites.
-3. **WhatsApp** — en `script.js`:
+- Nombre: **Valeria** (hero, monograma "V" y footer)
+- Fecha: **26 de septiembre de 2026**, countdown apuntando a las 4:00 PM
+- Padres: **Bétzi Marroquín & David Ruano**
+- Misa: 4:00 PM, Iglesia Nuestra Señora del Carmen
+- Recepción: 5:30 PM, Salón Centro de Convenciones Las Torrelleanas
+- Itinerario: Misa 4:00 PM · Recepción 5:30 PM · Cena 6:30 PM · Baile 7:30 PM
+- Código de vestimenta: evitar rosado, celeste y plateado
+- Pases: 2 lugares reservados
+- Sugerencia de regalo: en efectivo, con sobre el día del evento
+
+### Lo único que falta que agregues tú:
+
+1. **WhatsApp** — en `script.js`:
    ```js
    const WHATSAPP_NUMBER = '50212345678'; // tu número con código de país, sin +
    const WHATSAPP_MESSAGE = '...';
    ```
-4. **Lugar, hora y dirección de la misa y la recepción** — en `index.html`, dentro de `<section class="evento">`.
-5. **Links de "Ver ubicación"** — reemplaza `href="https://maps.google.com"` por el link real de Google Maps de cada lugar (ábrelo en Maps, botón "Compartir" → copiar link).
-6. **Mesa de regalos** — reemplaza los `href="#"` de las tarjetas por tus links reales.
-7. **Galería de fotos** — en `index.html`, sección `<section class="galeria">`, reemplaza cada:
+2. **Links de "Ver ubicación"** — en `index.html`, reemplaza cada `href="https://maps.google.com"` por el link real de Google Maps de la iglesia y del salón (ábrelo en Maps, botón "Compartir" → copiar link).
+3. **Galería de fotos** — en `index.html`, sección `<section class="galeria">`, reemplaza cada:
    ```html
    <div class="galeria__item ph">1</div>
    ```

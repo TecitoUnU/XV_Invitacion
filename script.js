@@ -1,10 +1,10 @@
 // ============================================================
 // EDITABLE: fecha del evento y datos de WhatsApp
 // ============================================================
-const EVENT_DATE = new Date('2026-11-14T19:00:00-06:00'); // año-mes-diaTHH:mm:ss (zona GT)
+const EVENT_DATE = new Date('2026-09-26T16:00:00-06:00'); // año-mes-diaTHH:mm:ss (zona GT)
 
 const WHATSAPP_NUMBER = '50212345678'; // EDITABLE: tu número con código de país, sin +
-const WHATSAPP_MESSAGE = '¡Hola! Confirmo mi asistencia a los XV años de Sofía. Vamos ___ persona(s). 💗';
+const WHATSAPP_MESSAGE = '¡Hola! Confirmo mi asistencia a los XV años de Valeria. Vamos ___ persona(s). 💗';
 
 // ------------------------------------------------------------
 // Countdown
