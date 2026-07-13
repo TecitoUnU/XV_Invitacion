@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis XV Años · Sofía</title>
+<meta name="description" content="Invitación digital de mis XV años">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Bonheur+Royale&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================= -->
+<!--  EDITA AQUÍ: nombre, fecha, lugar, WhatsApp    -->
+<!--  Busca el comentario "EDITABLE" en cada sección -->
+<!-- ============================================= -->
+
+<div class="grain"></div>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero__ornament" aria-hidden="true">
+    <svg viewBox="0 0 200 240" class="crest">
+      <defs>
+        <linearGradient id="crestGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="var(--rose)"/>
+          <stop offset="100%" stop-color="var(--silver)"/>
+        </linearGradient>
+      </defs>
+      <path class="crest__shield" d="M100 8 L182 40 V118 C182 168 146 202 100 232 C54 202 18 168 18 118 V40 Z"/>
+      <path class="crest__inner" d="M100 24 L168 50 V116 C168 158 138 188 100 214 C62 188 32 158 32 116 V50 Z"/>
+      <text x="100" y="132" class="crest__letter" text-anchor="middle">S</text>
+      <path class="crest__spark" d="M100 2 L104 12 L114 16 L104 20 L100 30 L96 20 L86 16 L96 12 Z"/>
+    </svg>
+  </div>
+
+  <p class="hero__eyebrow">Con la bendición de Dios y de mis padres</p>
+  <h1 class="hero__title">Mis quince años</h1>
+  <p class="hero__name">Sofía</p> <!-- EDITABLE: nombre -->
+  <p class="hero__date">Sábado 14 de noviembre de 2026</p> <!-- EDITABLE: fecha bonita -->
+
+  <a href="#detalles" class="hero__scroll" aria-label="Ver invitación">
+    <span></span>
+  </a>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="section countdown">
+  <p class="section__eyebrow">Falta muy poco para celebrar juntos</p>
+  <div class="countdown__grid" id="countdown">
+    <div class="countdown__box"><span class="countdown__num" id="cd-dias">00</span><span class="countdown__label">Días</span></div>
+    <div class="countdown__box"><span class="countdown__num" id="cd-horas">00</span><span class="countdown__label">Horas</span></div>
+    <div class="countdown__box"><span class="countdown__num" id="cd-min">00</span><span class="countdown__label">Min</span></div>
+    <div class="countdown__box"><span class="countdown__num" id="cd-seg">00</span><span class="countdown__label">Seg</span></div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- EVENTO -->
+<section class="section evento" id="detalles">
+  <p class="section__eyebrow">Itinerario</p>
+  <h2 class="section__title">Los espero aquí</h2>
+
+  <div class="evento__grid">
+    <article class="evento__card">
+      <div class="evento__icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M24 4 L24 14 M14 20 L34 20 L34 42 L14 42 Z M10 42 L38 42 M18 28 H30 M18 34 H30" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+      </div>
+      <h3>Misa de acción de gracias</h3>
+      <p class="evento__time">4:30 PM</p> <!-- EDITABLE -->
+      <p class="evento__place">Parroquia Nuestra Señora del Rosario</p> <!-- EDITABLE -->
+      <p class="evento__addr">4a. Avenida 12-25, Zona 10, Ciudad de Guatemala</p> <!-- EDITABLE -->
+      <a class="evento__link" href="https://maps.google.com" target="_blank" rel="noopener">Ver ubicación</a>
+    </article>
+
+    <article class="evento__card">
+      <div class="evento__icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M24 6 C24 6 30 14 30 20 C30 24.4 27.3 28 24 28 C20.7 28 18 24.4 18 20 C18 14 24 6 24 6 Z M24 28 V40 M14 40 H34" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+      </div>
+      <h3>Recepción</h3>
+      <p class="evento__time">7:00 PM</p> <!-- EDITABLE -->
+      <p class="evento__place">Salón Jardín Versalles</p> <!-- EDITABLE -->
+      <p class="evento__addr">Km 14.5 Carretera a El Salvador</p> <!-- EDITABLE -->
+      <a class="evento__link" href="https://maps.google.com" target="_blank" rel="noopener">Ver ubicación</a>
+    </article>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- CÓDIGO DE VESTIMENTA -->
+<section class="section vestimenta">
+  <p class="section__eyebrow">Código de vestimenta</p>
+  <h2 class="section__title">Formal / Etiqueta</h2>
+  <p class="vestimenta__note">Rosa y plata serán los tonos de la noche. Les pido evitar el blanco, reservado para la quinceañera.</p>
+  <div class="vestimenta__swatches">
+    <span class="swatch" style="--c:#C98CA0" title="Rosa"></span>
+    <span class="swatch" style="--c:#E7C9D2" title="Rosa claro"></span>
+    <span class="swatch" style="--c:#B9BAC0" title="Plata"></span>
+    <span class="swatch" style="--c:#8C4A5D" title="Vino"></span>
+    <span class="swatch swatch--no" title="Blanco no">
+      <svg viewBox="0 0 24 24"><path d="M4 4 L20 20 M20 4 L4 20" stroke="#8C4A5D" stroke-width="1.6"/></svg>
+    </span>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- GALERÍA -->
+<section class="section galeria">
+  <p class="section__eyebrow">Un poco de mí</p>
+  <h2 class="section__title">Galería</h2>
+  <div class="galeria__grid">
+    <!-- EDITABLE: reemplaza cada div por <img src="assets/foto1.jpg" alt=""> -->
+    <div class="galeria__item ph">1</div>
+    <div class="galeria__item ph">2</div>
+    <div class="galeria__item ph">3</div>
+    <div class="galeria__item ph">4</div>
+    <div class="galeria__item ph">5</div>
+    <div class="galeria__item ph">6</div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- MESA DE REGALOS -->
+<section class="section regalos">
+  <p class="section__eyebrow">Con cariño</p>
+  <h2 class="section__title">Mesa de regalos</h2>
+  <p class="regalos__note">Tu presencia es el mejor regalo. Si deseas obsequiarme algo, con mucho gusto puedes hacerlo en:</p>
+  <div class="regalos__cards">
+    <a class="regalos__card" href="#" target="_blank" rel="noopener"> <!-- EDITABLE: link tienda 1 -->
+      <span class="regalos__tag">Tienda</span>
+      <span>Sears</span>
+    </a>
+    <a class="regalos__card" href="#" target="_blank" rel="noopener"> <!-- EDITABLE: link tienda 2 -->
+      <span class="regalos__tag">Lluvia de sobres</span>
+      <span>En la recepción</span>
+    </a>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- RSVP -->
+<section class="section rsvp" id="confirmar">
+  <p class="section__eyebrow">Antes del 1 de noviembre</p> <!-- EDITABLE: fecha límite -->
+  <h2 class="section__title">Confírmame tu asistencia</h2>
+  <p class="rsvp__note">Escríbeme por WhatsApp y cuéntame cuántos vendrán contigo.</p>
+  <a
+    id="rsvp-btn"
+    class="rsvp__button"
+    href="#"
+    target="_blank"
+    rel="noopener"
+  >
+    Confirmar por WhatsApp
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer__crest" aria-hidden="true">✦</div>
+  <p>Gracias por acompañarme en esta noche tan especial</p>
+  <p class="footer__signature">Sofía · 14.11.2026</p> <!-- EDITABLE -->
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
