@@ -19,6 +19,7 @@
 
 *{ box-sizing: border-box; }
 html{ scroll-behavior: smooth; }
+img{ max-width: 100%; height: auto; }
 
 body{
   margin:0;
@@ -308,9 +309,16 @@ body{
 @media (max-width:560px){ .galeria__grid{ grid-template-columns: repeat(2,1fr); } }
 .galeria__item{
   aspect-ratio: 3/4;
+  width: 100%;
+  min-width: 0;
+  display:block;
+  object-fit: cover;
   background: linear-gradient(160deg, var(--rose-soft), var(--silver-light));
-  display:flex; align-items:center; justify-content:center;
   font-family: var(--display); color: var(--rose-deep); font-size:1.4rem;
+}
+/* solo aplica a los placeholders de texto (divs), no a las fotos reales */
+div.galeria__item{
+  display:flex; align-items:center; justify-content:center;
 }
 
 /* ============================================================
