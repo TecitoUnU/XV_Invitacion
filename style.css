@@ -136,6 +136,15 @@ body{
   margin: 0 0 2.2rem;
 }
 
+.section__icon{
+  width: 52px; height: 52px;
+  margin: -1rem auto 1.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--rose-soft);
+  display: flex; align-items: center; justify-content: center;
+}
+.section__icon svg{ width: 24px; height: 24px; color: var(--rose-deep); }
+
 .reveal{ opacity:0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
 .reveal.is-visible{ opacity:1; transform: translateY(0); }
 
@@ -171,23 +180,32 @@ body{
 }
 .itinerario__item{
   display: grid;
-  grid-template-columns: 70px 20px 1fr;
+  grid-template-columns: 62px 34px 1fr;
   align-items: center;
+  gap: .6rem;
   padding: .9rem 0;
   border-bottom: 1px solid var(--silver-light);
 }
 .itinerario__item:last-child{ border-bottom: none; }
 .itinerario__time{
-  font-size: .85rem;
+  font-size: .8rem;
   letter-spacing: .04em;
   color: var(--ink-soft);
   text-align: left;
 }
-.itinerario__dot{
-  width: 6px; height: 6px; margin: 0 auto;
-  border-radius: 1px;
-  background: var(--rose);
-  transform: rotate(45deg);
+.itinerario__icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--rose-soft);
+}
+.itinerario__icon svg{
+  width: 17px;
+  height: 17px;
+  color: var(--rose-deep);
 }
 .itinerario__label{
   font-family: var(--display);
